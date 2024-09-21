@@ -25,8 +25,8 @@ export default function Page() {
         {posts.map((post) => (
           <li key={post.id}>
             <strong>Title:</strong> {post.title}<br />
-            <strong>Content:</strong> {post.content || "No content"}<br />
-            <strong>Published:</strong> {post.published ? "Yes" : "No"}
+            <strong>Content:</strong> {post.content || "fdhds"}<br />
+            <strong>Published:</strong> {post.published ? "oui" : "nnn"}
           </li>
         ))}
       </ul>
